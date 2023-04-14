@@ -7,7 +7,7 @@ public class MyComponent {
     public String myComponentName;
 
     public MyComponent(String myComponentName) {
-        this.myComponentName = "Alessio";
+        this.myComponentName = myComponentName;
     }
 
     public String getMyComponentName(String myComponentImmutableName){

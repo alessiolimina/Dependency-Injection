@@ -15,6 +15,6 @@ public class MyService {
     }
 
     public String getName(){
-        return myComponent.getMyComponentName();
+        return myComponent.getMyComponentName("Alessio");
     }
 }

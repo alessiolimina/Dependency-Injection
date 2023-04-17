@@ -12,6 +12,7 @@ public class MyComponent {
     }
 
     public String getMyComponentName(){
-        return "myComponentImmutableName is " + myComponentName + "MyComponent.getMyComponentName() has been called";
+        return "myComponentImmutableName is " + myComponentName + " MyComponent.getMyComponentName() has been called";
     }
 }
+//Documentazione Postman : https://documenter.getpostman.com/view/26121086/2s93XyVP9h

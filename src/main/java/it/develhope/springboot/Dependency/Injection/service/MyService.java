@@ -16,6 +16,6 @@ public class MyService {
     }
 
     public String getName(){
-        return myComponent.getMyComponentName("Alessio") + "MyService.getName() has been called";
+        return myComponent.getMyComponentName() + "MyService.getName() has been called";
     }
 }

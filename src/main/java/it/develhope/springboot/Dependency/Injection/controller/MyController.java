@@ -15,10 +15,16 @@ public class MyController {
 
     public MyController(MyService myService) {
         this.myService = myService;
+        System.out.println("MyService constructor has been called");
     }
 
     @GetMapping("/getName")
     public String getName(){
-        return myService.getName();
+        return myService.getName() + "MyService.getName() has been called";
+    }
+
+    @GetMapping("/")
+    public String welcomeMessage(){
+        return "This is a welcome message";
     }
 }

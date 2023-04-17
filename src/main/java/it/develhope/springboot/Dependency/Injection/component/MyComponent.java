@@ -8,9 +8,10 @@ public class MyComponent {
 
     public MyComponent(String myComponentName) {
         this.myComponentName = myComponentName;
+        System.out.println("MyComponent constructor() has been called");;
     }
 
     public String getMyComponentName(String myComponentImmutableName){
-        return myComponentImmutableName;
+        return myComponentImmutableName + "MyComponent.getMyComponentName() has been called";
     }
 }
